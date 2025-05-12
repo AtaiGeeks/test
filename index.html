@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>test</h1>
+
+  <!-- ЗАДАЧА 1: ПРОВЕРКА НА ЦИФРЫ -->
+  <section class="task highlight">
+    <h2>ЗАДАЧА 1: Проверка строки на только цифры</h2>
+    <input type="text" id="digitInput" placeholder="Введите строку из цифр" />
+    <button onclick="runTask1()">Проверить</button>
+    <p id="result1" class="output"></p>
+  </section>
+
+  <!-- ЗАДАЧА 2: ИНТЕРВАЛ -->
+  <section class="task highlight">
+    <h2>ЗАДАЧА 2: Каждую секунду выводить "Прошла секунда"</h2>
+    <button onclick="runTask2()">Запустить</button>
+    <div id="intervalOutput" class="output"></div>
+  </section>
+
+  <!-- ЗАДАЧА 3 -->
+  <section class="task">
+    <h2>ЗАДАЧА 3: Вывести от 1 до 10 с интервалом в 1 сек</h2>
+    <button onclick="runTask3()">Запустить</button>
+  </section>
+
+  <!-- ЗАДАЧА 4 -->
+  <section class="task">
+    <h2>ЗАДАЧА 4: Блок с изменением фона при клике</h2>
+    <div id="colorBox" class="box" onclick="runTask4()"></div>
+  </section>
+
+  <!-- ЗАДАЧА 5 -->
+  <section class="task">
+    <h2>ЗАДАЧА 5: GET-запрос и вывод JSON</h2>
+    <button onclick="runTask5()">Отправить запрос</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
